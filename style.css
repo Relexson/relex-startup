@@ -1,0 +1,48 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: Lato:wght@300&display=swap;
+	background: url(startup-mainpage.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #fcfcfc;
+}
+
+hr {
+	border-color: #dc0000;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 2rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #dc0000;
+	border-color: #dc0000;
+}
+
+.btn-primary {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width:  3px;
+
+}
+
+.btn-xl {
+	padding: 1rem 3rem;
+}
